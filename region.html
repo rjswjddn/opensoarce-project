@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>region</title>
+    <title>따릉이</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Water+Brush&display=swap" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, height=device-height,initial-scale=1.0">
     <style>
         h1{
             margin-left:3%;
@@ -20,7 +20,7 @@
             color: black;
             text-decoration: none;
         }
-        .mainmenu, div{
+        .mainmenu{
             font-family: 'Gowun Dodum', sans-serif;
             
         }
@@ -29,7 +29,7 @@
             text-decoration: none;
         }
         .mainmenu>a:hover{
-            color:rgb(82, 82, 82); font-size: 0.95rem;
+            color:rgb(82, 82, 82); font-size: 1.15rem;
         }
         header{
             height: 45px;
@@ -48,12 +48,14 @@
             padding-top:60px
         }
         #menu{
-            width: 45%; text-align:center;
+            width: 30%; text-align:center;
         }  
         #main1>li{
+            text-align:center;
             position:relative;
             float:left;
         }
+
 
         ul>li>a{
             text-align: center;
@@ -61,39 +63,30 @@
         }
 
         .mainmenu{
-            font-size: 1rem; text-align:center;
-            width: 15%;
+            font-size: 1.2rem; text-align:center;
+            width: 40%;
         }
-        #sub{
-            background : rgb(1, 0, 82);
-            position: fixed;
-            top:55px; right:0px;
-            font-size:1rem;
-            padding-left: 10px; padding-right:10px;font-weight: bold;
-        }
-        #sub a{
-            color: white;
-            text-decoration: none;
-        }
-        #sub a:visited{
-            color: white;
-            text-decoration: none;
-        }
+
         #content{
             width: 100%;
             height: 680px;
             position:static;
         }
         #map{
-            width: 800px;
-            height: 495px;
-            padding-left: 29%; padding-right: 26%;
-            margin-top: 9%; margin-bottom: 5%;
-            position:static;
+            width: 100%;
+            /* border: 5px solid red; */
+            height:650px;
+            margin: auto;
+            position: relative;
+            text-align: center; align-items: center;
         }
         iframe{
-            width: 90%;
-            height: 95%;
+            display:inline-block;
+            margin: auto;
+            width: 60%;
+            height: 80%;
+            position:absolute;
+            top:0;left:0;bottom:0;right:0;
         }
     </style>
 </head>
@@ -103,16 +96,16 @@
         <nav id = "menu">
             <nav>
                 <ul id="main1">
-                    <li class="mainmenu"><a href = "#">강동구</a></li>
-                    <li class="mainmenu"><a href = "#">강남구</a></li>
-                    <li class="mainmenu"><a href = "#">강서구</a></li>
-                    <li class="mainmenu"><a href = "#">강서구</a></li>
-                    <li class="mainmenu"><a href = "#">서초구</a></li>
+                    <li class="mainmenu"><a href = "region.html">region</a>
+
+                    </li>
+                    <li class="mainmenu"><a href = "분석탭.html">sub-analysis</a>
+                    </li>
                 </ul>
             </nav>
         </nav>
     </header>
-    <div id = "sub"><a href = "분석탭.html">sub-analysis</a></div>
+
     <div id = "content">
         <h1><a href="#map">지도</a></h1>
         <h1>설명</h1>
@@ -121,6 +114,5 @@
     <div id = "map">
         <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1-YB6tuaZfOBf2h95jw8B7RvhLs0TmkKB&ehbc=2E312F" ></iframe>
     </div>
-    
 </body>
 </html>
