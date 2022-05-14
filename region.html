@@ -64,22 +64,37 @@
             font-size: 1rem; text-align:center;
             width: 15%;
         }
-        div{
+        #sub{
             background : rgb(1, 0, 82);
             position: fixed;
             top:55px; right:0px;
             font-size:1rem;
             padding-left: 10px; padding-right:10px;font-weight: bold;
         }
-        div a{
+        #sub a{
             color: white;
             text-decoration: none;
         }
-        div a:visited{
+        #sub a:visited{
             color: white;
             text-decoration: none;
         }
-
+        #content{
+            width: 100%;
+            height: 680px;
+            position:static;
+        }
+        #map{
+            width: 800px;
+            height: 495px;
+            padding-left: 29%; padding-right: 26%;
+            margin-top: 9%; margin-bottom: 5%;
+            position:static;
+        }
+        iframe{
+            width: 90%;
+            height: 95%;
+        }
     </style>
 </head>
 <body>
@@ -97,33 +112,15 @@
             </nav>
         </nav>
     </header>
-    <div><a href = "분석탭.html">sub-analysis</a></div>
-    <h2>dd</h2>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
+    <div id = "sub"><a href = "분석탭.html">sub-analysis</a></div>
+    <div id = "content">
+        <h1><a href="#map">지도</a></h1>
+        <h1>설명</h1>
+    </div>
+    
+    <div id = "map">
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1-YB6tuaZfOBf2h95jw8B7RvhLs0TmkKB&ehbc=2E312F" ></iframe>
+    </div>
+    
 </body>
 </html>
