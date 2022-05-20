@@ -64,20 +64,52 @@
             font-size: 1rem; text-align:center;
             width: 28%;
         }
-        div{
+        .reg_menu{
             background : rgb(1, 0, 82);
             position: fixed;
             top:54px; right:0px;
             font-size:1rem;
             padding-left: 10px; padding-right:10px;font-weight: bold;
         }
-        div a{
+        .reg_menu > a{
             color: white;
             text-decoration: none;
         }
-        div a:visited{
+        .reg_menu > a:visited{
             color: white;
             text-decoration: none;
+        }
+        main{
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .container{ 
+            padding-top: 100px;
+            padding-bottom: 250px;
+        }
+        .title{
+            display:flex;
+            padding-bottom: 20px;
+        }
+        .title > p{
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        .row{
+            display: flex;
+        }
+        .row > img{
+            width: 50%
+        }
+        .row > img, p, div{
+            justify-content: space-evenly;
+        }
+        .conbox{
+            width: 500px;
+            height: 300px;
+            border: solid 1px black;
         }
     </style>
 </head>
@@ -94,33 +126,27 @@
             </nav>
         </nav>
     </header>
-    <div><a href = "region.html">region</a></div>
-    <h2>dd</h2>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
-    <p>ddddddddddddddddddddddddddddddd</p>
+    <div class="reg_menu"><a href = "region.html">region</a></div>
+    <main>
+        <div class="container">
+            <div class="title"><p>신규가입 실제 이용자</p></div>
+            <div class="row">
+                <img src="pic1.png" alt="pic1">
+                <p>일단 틀만 맞춰놨습니다 !!</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="title"><p>운동량vs이동거리</p></div>
+            <div class="row">
+                <div class="conbox">박스1</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="title"><p>성별/연령별 이용률</p></div>
+            <div class="row">
+                <div class="conbox">박스1</div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
