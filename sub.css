@@ -113,22 +113,26 @@ ul>li>a{
 #submenu>button{
     font-family: 'Noto Sans KR', sans-serif;
     border : 0px; background-color:white;
-    font-size:1.125rem; font-weight: 300;
-    margin-left:-8px;margin-right:-6px;
+    font-size:1.025rem; font-weight: 300;
+    margin-left:-7px;margin-right:-6px;
     height:34px; 
     box-sizing: border-box; 
     cursor: pointer;
+    line-height: 1.7em;
 }
 #submenu a:hover{
     color: rgb(18, 113, 21);
     font-weight:400;
     border-bottom : 2px solid rgb(18, 113, 21);
+    letter-spacing: 1.2px;
 }
 
 #submenu button>a{
-    width: 185px; height: 32px;
+    width: 220px; height: 32px;
     color: black; display:block;
     text-decoration: none;
+    letter-spacing: 1px;
+
 }
 #submenu button>a:visited{
     text-decoration: none;
@@ -151,16 +155,18 @@ section{
 img{
     display: inline-block;
     position: absolute;
-    width: 45%; height: 85%; top:7.5%;
-    right: 7%;
+    width: 40%; top:7.5%;
+    right: 10%;
 }
 #map_content article{
     position: absolute;
     text-align: left;
     line-height: 2em; font-size:1.2rem;
-    left: 8%; top: 12%;
+    left: 10%; top: 12%;
 }
 #map_content article h1{
-    font-size:3rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:2.5rem;
     margin-top:5px;
+    letter-spacing: 2px;
 }
