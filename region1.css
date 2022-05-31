@@ -151,8 +151,8 @@ section{
 img{
     /* display: inline-block; */
     position: absolute;
-    width: 45%; height: 85%;
-    right:10%; top:7.5%;
+    width: 50%; height: auto;
+    right:6%; top:20%;
 }
 #map_content article{
     position: absolute;
