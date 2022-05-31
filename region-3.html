@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>region : density</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Gothic+Coding:wght@400;700&family=Noto+Sans+KR:wght@100;300;400;500&family=Water+Brush&display=swap" rel="stylesheet">
+    <!-- <meta name="viewport" content="width=device-width, height=device-height,initial-scale=1.0"> -->
+    <link rel="stylesheet" href="region1.css">
+</head>
+<body>
+    <header id = "menubar">
+        <h1 id = "main"><a href = "main.html">Seoul Bike - region</a></h1>
+        <nav id = "menu">
+            <nav>
+                <ul id="main1">
+                    <li class="mainmenu"><a href = "region.html">region</a></li>
+                    <li class="mainmenu"><a href = "sub.html">sub-analysis</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    
+    <div id = "content">
+        <h2> 서울 각 구의 따릉이 정보를 지역별로 볼 수 있습니다</h2>
+        <h1>REGIONAL BIKE STATUS</h1>
+        
+        <div id = "submenu">
+            <button><a href="region.html">map</a></button>
+            <button><a href="region-1.html">mean distance</a></button>
+            <button><a href="region-2.html">density</a></button>
+            <button id = "active"><a href="region-3.html">sub</a></button>
+        </div>
+
+        <section id = "map_content">
+            <article>
+                <h1>sub</h1>
+                <h4>구 별 대여소 & 거치대 수</h4>
+                <button id="btn6">대여소</button> 
+                <button id="btn7">거치대</button>
+                <h4>구 별 대여 건 수 변화</h4>
+                <button id="btn1">강남구 - 구로구</button> 
+                <button id="btn2">금천구 - 도봉구</button>
+                <button id="btn3">동대문구 - 서초구</button><br> 
+                <button id="btn4">성동구 - 영등포구</button>
+                <button id="btn5">용산구 - 중랑구</button> 
+                <!-- <button id="btn6">금천구</button> -->
+            </article>
+           <img src="대여소개수.png">
+           <script src="region3.js"></script>
+        </section>
+      
+    </div>
+    
+
+</body>
+</html>
