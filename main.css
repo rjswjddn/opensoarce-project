@@ -248,3 +248,7 @@ article.mainsec img{
     margin-top: 50px; margin-bottom:35px;
     margin-left: 15%;
 }
+
+body::-webkit-scrollbar{ width: 8px;}
+body::-webkit-scrollbar-track{ background-color: rgb(177, 177, 177);}
+body::-webkit-scrollbar-thumb{background-color: green;}
