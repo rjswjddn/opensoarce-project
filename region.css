@@ -160,7 +160,12 @@ iframe{
     line-height: 2em; font-size:1.2rem;
     left: 12%; top: 12%;
 }
+#map_content article li{
+
+    line-height: 2em; font-size:1.1rem;
+    left: 12%; top: 12%;
+}
 #map_content article h1{
-    font-size:3rem;
-    margin-top:5px;
+    font-size:3rem; 
+    margin-top:5px; margin-bottom: 30px;
 }
