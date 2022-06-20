@@ -152,7 +152,7 @@ img{
     /* display: inline-block; */
     position: absolute;
     width: 50%; height: auto;
-    right:6%; top:17%;
+    right:6%; top:9%;
 }
 #map_content article{
     position: absolute;
@@ -167,3 +167,16 @@ img{
 article button{
     border:0px;
 }
+
+/* table{
+    margin-top:30px;
+    width: 80%;
+    font-size:.75rem;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+td{
+    text-align:center;
+    border: 1px solid black;
+    padding: 1px;
+} */
